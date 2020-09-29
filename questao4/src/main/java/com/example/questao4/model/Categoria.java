@@ -14,4 +14,7 @@ import lombok.NoArgsConstructor;
 public class Categoria {
   private Long id;
   private String nome;
+
+  @OneToMany(mappedBy = "categoria")
+  private List<Veiculo> veiculos;
 }

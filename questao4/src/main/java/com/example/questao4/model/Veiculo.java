@@ -18,5 +18,8 @@ public class Veiculo {
   private String marca;
   private BigDecimal valorDiaria;
   
+  @ManyToOne
+  private Categoria categoria;
+  
   
 }
