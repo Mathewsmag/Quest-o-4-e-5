@@ -1,13 +1,14 @@
 package com.example.questao4.model;
 
 import java.math.BigDecimal;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+import javax.persistence.ManyToOne;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-@EntityScan
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

@@ -1,5 +1,9 @@
 package com.example.questao4.model;
 
+import java.util.List;
+
+import javax.persistence.OneToMany;
+
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import lombok.AllArgsConstructor;
 import lombok.Data;
